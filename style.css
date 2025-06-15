@@ -157,3 +157,83 @@ button:hover {
   color: #ff3333;
   margin-top: 10px;
 }
+/* Pour les petits téléphones (max-width: 425px) */
+@media (max-width: 425px) {
+  .container {
+    border-radius: 0.5rem;
+    padding: 1rem 0.5rem;
+  }
+
+  #start-screen h1,
+  #result-screen h1 {
+    font-size: 1.8rem;
+  }
+
+  #start-screen p {
+    font-size: 1rem;
+  }
+
+  #question-text {
+    font-size: 1.2rem;
+  }
+
+  .answers-btn {
+    font-size: 0.95rem;
+    padding: 0.8rem;
+  }
+
+  button {
+    font-size: 1rem;
+    padding: 12px 24px;
+  }
+
+  .result-info p {
+    font-size: 1rem;
+  }
+
+  #result-message {
+    font-size: 1.2rem;
+  }
+}
+
+/* Pour les très petits téléphones (max-width: 375px) */
+@media (max-width: 375px) {
+  #start-screen h1,
+  #result-screen h1 {
+    font-size: 1.6rem;
+  }
+
+  .answers-btn {
+    font-size: 0.9rem;
+    padding: 0.7rem;
+  }
+
+  .result-info {
+    padding: 15px;
+  }
+}
+
+/* Pour les plus petits écrans (max-width: 320px) */
+@media (max-width: 320px) {
+  #start-screen h1,
+  #result-screen h1 {
+    font-size: 1.4rem;
+  }
+
+  #start-screen p,
+  .result-info p,
+  #result-message {
+    font-size: 0.95rem;
+  }
+
+  .answers-btn {
+    font-size: 0.85rem;
+    padding: 0.6rem;
+  }
+
+  button {
+    font-size: 0.95rem;
+    padding: 10px 20px;
+  }
+}
+
