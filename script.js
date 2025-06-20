@@ -156,7 +156,7 @@ function showResult() {
 
   const percentage = (score / quizQuestions.length) * 100;
   if (percentage === 100) {
-    resultMessage.textContent = "Felicitations!🎉👑🥇";
+    resultMessage.textContent = "Félicitations!🎉👑🥇";
     victoryAudio.play();
   } else if (percentage >= 80) {
     resultMessage.textContent =
@@ -167,9 +167,9 @@ function showResult() {
     resultMessage.textContent =
       "Tu n'es qu'au début de ton ascension persevere!👊";
   } else if (percentage >= 20) {
-    resultMessage.textContent = "Goorgoorlou wo dara😪";
+    resultMessage.textContent = "C’est en trébuchant qu’on apprend à marcher ! 💪";
   } else {
-    resultMessage.textContent = "Tiens ton ordinateur!👀 ioe do am😞";
+    resultMessage.textContent = "Ce n’est pas un échec, c’est un point de départ. 🌱";
   }
 }
 
